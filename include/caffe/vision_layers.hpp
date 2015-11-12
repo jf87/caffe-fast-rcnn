@@ -533,8 +533,6 @@ class SPPLayer : public Layer<Dtype> {
   shared_ptr<ConcatLayer<Dtype> > concat_layer_;
 };
 
-#endif
-
 template <typename Dtype>
 class CropLayer : public Layer<Dtype> {
  public:
